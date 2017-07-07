@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PhotoWalk</string>
+    <string name="error_requires_permisson">This app requires your location to function.</string>
+    <string name="error_unknown_playservices">Google Play Services errored.</string>
+    <string name="connecting_to_gps">Connecting to Google Play Services…</string>
+    <string name="start_tracking">Start Walk</string>
+    <string name="stoptracking">Stop Walk</string>
+</resources>

@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="dialog_style" parent="Theme.AppCompat.Dialog">
+        <item name="android:tint">@color/colorAccent</item>
+        <item name="android:buttonBarNegativeButtonStyle">@style/negative_button_style</item>
+        <item name="android:buttonBarPositiveButtonStyle">@style/positive_button_style</item>
+    </style>
+
+    <style name="negative_button_style" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="positive_button_style" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+</resources>
