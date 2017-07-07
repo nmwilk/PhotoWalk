@@ -182,7 +182,7 @@ class ActiveActivity : AppCompatActivity(), GoogleApiClient.ConnectionCallbacks,
                         .observeOn(AndroidSchedulers.mainThread())
                         .subscribe({
                             Log.i(TAG, "photo results $it")
-                            i.photos.photoList.random()?.let { presenter?.newImage(it.formUrl()) }
+                            it.photos.photoList.random()?.let { presenter?.newImage(it.formUrl()) }
                         }, {
                             errorDialog(this@ActiveActivity, "Failed to retrieve images")
                         })
