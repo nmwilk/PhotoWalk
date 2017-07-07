@@ -26,7 +26,6 @@ class ActivePresenter(private val model: ActiveModel) : ActiveContract.Presenter
     }
 
     override fun newImage(url: String) {
-        Log.d(TAG, "newImage $url")
         model.addImage(url)
         view?.updateUI(model.state())
     }
